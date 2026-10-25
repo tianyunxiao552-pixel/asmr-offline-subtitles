@@ -1,0 +1,15 @@
+.runtime/
+.models/
+.state/
+.logs/
+.temp/
+.tool.lock
+processing_status.txt
+__pycache__/
+*.py[cod]
+待翻译/*
+!待翻译/.gitkeep
+已翻译/*
+!已翻译/.gitkeep
+效果对比/
+.env

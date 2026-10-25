@@ -1,0 +1,21 @@
+# Stable CUDA 12 / cuDNN 9 stack. Model sizes are never reduced.
+# faster-whisper is installed separately with --no-deps: it declares CPU
+# onnxruntime, which would overwrite the GPU runtime's shared Python module.
+audio-separator[gpu]==0.30.2
+onnxruntime-gpu==1.22.0
+onnx==1.17.0
+ctranslate2==4.6.0
+huggingface-hub==1.31.0
+hf-xet==1.7.0
+tokenizers==0.23.1
+transformers==5.19.0
+accelerate==1.15.0
+safetensors==0.8.0
+nagisa==0.3.0
+DyNet38==2.2
+av==15.1.0
+numpy==1.26.4
+scipy==1.15.3
+imageio-ffmpeg==0.6.0
+soundfile==0.13.1
+tqdm==4.67.1
